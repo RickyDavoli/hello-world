@@ -58,7 +58,7 @@ public class UserTest {
     void firstNamesStartWithACapital() {
         boolean thrown = false;
         try {
-            new User("ricardo", "Davoli");
+            new User("ricardoo", "Davoli");
             fail("Should not get here");
         } catch (IllegalArgumentException ile) {
             thrown = true;
