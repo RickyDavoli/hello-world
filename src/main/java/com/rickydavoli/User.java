@@ -13,10 +13,10 @@ public class User {
         this.surname = firstLetterNotCapital(notBlank(surname).trim());
     }
 
-    public String getFirstName(){
+    public String getFirstname(){
         return firstname;
     }
-    public String getLastName(){
+    public String getSurname(){
         return surname;
 
     }

@@ -86,8 +86,8 @@ public class UserTest {
     @DisplayName("should create users where both first name and surname starts with capitals")
     void canCreateUserWhereBothFirstNameAndLastNameStartsWithCapitals() {
         var user = new User(" Ricardo ", " Davoli  \t");
-        assertThat(user.getFirstName(), is("Ricardo"));
-        assertThat(user.getLastName(), is("Davoli"));
+        assertThat(user.getFirstname(), is("Ricardo"));
+        assertThat(user.getSurname(), is("Davoli"));
     }
 
 }
